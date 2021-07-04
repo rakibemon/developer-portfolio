@@ -17,8 +17,9 @@ section h1 span{
     color: #FFA507;
     }
 
-section{
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
 width: 50%;
@@ -36,7 +37,48 @@ padding-left: 5%;
     font-weight: 700;
 }
 .top-banner{
-    background-image: url("/img/top-banner.png");
+    background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.dream__big{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.dream__big .half-width p{
+    padding-right: 7rem;
+    margin-bottom: 2rem;
+}
+
+.exp-width h3{
+    color: #FFA507;
+}
+.exp-width{
+    width: 44%;
+    height: 30rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 3rem;
+    box-shadow: 10px 10px 30px 10px gray;
+    
+    
+}
+.experiance{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+}
+#border-item-1{
+    border-left: 10px solid salmon;
+    border-radius: 2%;
+}
+#border-item-2{
+    border-left: 10px solid;
+    border-image: linear-gradient(to top,blue,aqua);
+    border-image-slice: 2;
+    border-radius: 2%;
+}
+footer p{
+    text-align: center;
 }
